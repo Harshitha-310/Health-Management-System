@@ -1,2 +1,12 @@
 # Health-Management-System
-This repository contains our website which manages our college VNIT's Health Management System . This is developed by using MYSQL, Web Development Frontend and backend .
+<br>
+Author : Sudha Harshitha 
+<br>
+<p>
+  <ul>
+    <li> This repository contains our website which manages our college VNIT's Health Management System .</li>
+    <li> This is developed by using MYSQL, Web Development Frontend and backend.</li>
+    <li> MySQL file is linked with backend to manage all the data regarding the Hospital and Management.</li>
+  </ul>
+</p>
+ 
