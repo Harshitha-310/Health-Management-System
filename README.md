@@ -1,6 +1,9 @@
 # Health-Management-System
 <br>
-Author : Sudha Harshitha 
+<p>
+  This is a group project done by "FIVE" people as a part of Hackathon in VNIT.
+</p>
+Authors : Hasnika Reddy, Shravya Puram, Ratna Sree, Madhav Kotha and me Sudha Harshitha.
 <br>
 <p>
   <ul>
