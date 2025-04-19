@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FAQs - Health Management System</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <style>
+        .faq-item {
+            margin-bottom: 20px;
+            border-bottom: 1px solid #eee;
+            padding-bottom: 15px;
+        }
+        
+        .faq-question {
+            font-weight: bold;
+            color: #2c3e50;
+            margin-bottom: 8px;
+            cursor: pointer;
+        }
+        
+        .faq-answer {
+            padding-left: 15px;
+            border-left: 3px solid #3498db;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1><i class="fas fa-heartbeat"></i> VNIT Nagpur Health Center</h1>
+    </header>
+
+    <section>
+        <h2>Frequently Asked Questions</h2>
+        
+        <div class="faq-container">
+            <div class="faq-item">
+                <div class="faq-question"><i class="fas fa-question-circle"></i> How do I register on the health management system?</div>
+                <div class="faq-answer">
+                    <p>To register, click on the "Register" link in the navigation menu. Fill in the required details including your name, email, and contact number. Once registered, you'll receive your student ID which you can use for all health services.</p>
+                </div>
+            </div>
+            
+            <div class="faq-item">
+                <div class="faq-question"><i class="fas fa-question-circle"></i> How can I book an appointment with a doctor?</div>
+                <div class="faq-answer">
+                    <p>To book an appointment, navigate to the "Book Appointment" page. Select your preferred doctor, date, and time slot. Enter the reason for your visit and submit the form. You'll receive a confirmation message upon successful booking.</p>
+                </div>
+            </div>
+            
+            <div class="faq-item">
+                <div class="faq-question"><i class="fas fa-question-circle"></i> How do I access my health records?</div>
+                <div class="faq-answer">
+                    <p>You can access your health records by visiting the "Health Records" page and entering your student ID. The system will display your complete medical history including past consultations, diagnoses, and treatments.</p>
+                </div>
+            </div>
+            
+            <div class="faq-item">
+                <div class="faq-question"><i class="fas fa-question-circle"></i> What should I do in case of a medical emergency?</div>
+                <div class="faq-answer">
+                    <p>In case of a medical emergency, you can use the "Emergency Alerts" feature to notify the health center immediately. Alternatively, you can call the emergency contact number: +91-712-2801234. The health center operates 24/7 for emergencies.</p>
+                </div>
+            </div>
+            
+            <div class="faq-item">
+                <div class="faq-question"><i class="fas fa-question-circle"></i> Can I reschedule or cancel my appointment?</div>
+                <div class="faq-answer">
+                    <p>Yes, you can reschedule or cancel your appointment by contacting the health center directly. Please do so at least 24 hours in advance to allow other students to book the slot.</p>
+                </div>
+            </div>
+            
+            <div class="faq-item">
+                <div class="faq-question"><i class="fas fa-question-circle"></i> Are specialist consultations available at the health center?</div>
+                <div class="faq-answer">
+                    <p>Yes, the health center offers specialist consultations including cardiology, neurology, orthopedics, and psychiatry. Check the "Doctor Availability" page to see when specialists are available.</p>
+                </div>
+            </div>
+            
+            <div class="faq-item">
+                <div class="faq-question"><i class="fas fa-question-circle"></i> Is there any cost for medical services at the health center?</div>
+                <div class="faq-answer">
+                    <p>Basic medical services are provided free of cost to all registered students. However, certain specialized tests or treatments may have nominal charges. The health center staff will inform you about any applicable charges before proceeding with such services.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 VNIT Nagpur Health Center | All Rights Reserved</p>
+    </footer>
+    
+    <script>
+        // Add click event to FAQ questions to toggle answers
+        document.querySelectorAll('.faq-question').forEach(question => {
+            question.addEventListener('click', () => {
+                const answer = question.nextElementSibling;
+                answer.style.display = answer.style.display === 'none' ? 'block' : 'none';
+            });
+        });
+    </script>
+</body>
+</html>

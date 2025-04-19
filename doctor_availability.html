@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doctor Availability - Health Management System</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+    <header>
+        <h1><i class="fas fa-heartbeat"></i> VNIT Nagpur Health Center</h1>
+    </header>
+
+    <section>
+        <h2>View Doctor's Availability</h2>
+        <div id="loading" class="loading">Loading doctor information...</div>
+        <table id="doctorTable" border="1" style="width: 100%; border-collapse: collapse;">
+            <thead>
+                <tr>
+                    <th style="padding: 10px;">Doctor Name</th>
+                    <th style="padding: 10px;">Specialization</th>
+                    <th style="padding: 10px;">Availability</th>
+                </tr>
+            </thead>
+            <tbody id="doctorData">
+                <!-- Data will be inserted here by JavaScript -->
+            </tbody>
+        </table>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 VNIT Nagpur Health Center | All Rights Reserved</p>
+    </footer>
+
+    <script src="js/doctor_availability.js"></script>
+</body>
+</html>
